@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhana Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="hero-section">
+    <video id="bg-video" autoplay muted loop>
+        <source src="/Users/suhanakhan/Desktop/Portfolio-2/technology.mp4" type="video/mp4">
+    </video>
+
+    <nav class="main-nav">
+        <h1 class="brand">MY PORTFOLIO</h1>
+
+        <ul class="nav-list"></ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="nav-btn" id="toggle-btn" aria-label="Menu Button" aria-expanded="false">☰</button>
+    </nav>
+
+    <div class="intro-text">
+        <h2>Hello, I'm Suhana</h2>
+        <p>Frontend Developer • UI/UX Explorer</p>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I’m a creative and detail-oriented frontend developer who enjoys building responsive,
+        clean and interactive web experiences using modern web technologies.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-flex">
+        <span class="skill-box">HTML</span>
+        <span class="skill-box">CSS</span>
+        <span class="skill-box">JavaScript</span>
+        <span class="skill-box">React</span>
+        <span class="skill-box">UI / UX</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+        <div class="project-item">Weather App</div>
+        <div class="project-item">Memory Game</div>
+        <div class="project-item">Portfolio Website</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input type="text" id="fullname" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <textarea id="msg" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="form-response"></div>
+</section>
+
+<footer>
+    <p>© 2025 Suhana Banu</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
