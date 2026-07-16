@@ -1,0 +1,17 @@
+{
+    "movies": [
+      {
+        "name": "Alpha",
+        "desc": "Produced by Yash Raj Films, this is the seventh installment in the high-profile YRF Spy Universe. It stands out as the franchise's very first female-led action blockbuster, starring Alia Bhatt and Sharvari as a duo of highly-trained assassins forced to team up against a ruthless enemy.",
+        "year": "2026",
+        "genre": "Spy Action-Thriller",
+        "director": "Shiv Rawail",
+        "rating": "4",
+        "poster": "https://www.yashrajfilms.com/images/default-source/movies/alpha/alpha_767x430.jpg?sfvrsn=6dbddecc_25",
+        "status": "watching",
+        "favorite": false,
+        "id": "JjhjSIw_gO4"
+      }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+  }
